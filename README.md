@@ -1,2 +1,2 @@
-# sudai.github.com
+# sudai.github.io
 my pages
