@@ -21,6 +21,20 @@ img {
 	margin-top: 70px;
 	margin-left:0%;
 }
+.photo_clu {
+    float: left;
+    width: 20%;
+    height: 30px;
+    margin: 10px;
+    
+}
+.clu{
+	margin-left:25%;
+	margin-right:5%;
+	padding-top:10%;
+	vertical-align:central;
+	
+}
 
 .top {
 	background: blue; /* For browsers that do not support gradients */
@@ -40,11 +54,12 @@ img {
 	color: white;
 }
 #education {
-	<br><br>
+	
 	background-color: #FFC;
 	background: linear-gradient(to top, lightgray, #FFF);
 	font-size: 1.5em;
 	font-size-adjust: inherit;
+	width: 100%;
 	color: #066;
 	height: 800px;
 }
