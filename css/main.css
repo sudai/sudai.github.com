@@ -7,8 +7,12 @@
 h2 {
 	color: #90C;
 }
-.project {
+#project {
 	background: #CFC;
+	font-size: 1.5em;
+	font-size-adjust: inherit;
+	color: #066;
+	height: 800px;
 }
 img {
 	border-radius: 5%;
@@ -36,6 +40,7 @@ img {
 	color: white;
 }
 #education {
+	<br><br>
 	background-color: #FFC;
 	background: linear-gradient(to top, lightgray, #FFF);
 	font-size: 1.5em;
