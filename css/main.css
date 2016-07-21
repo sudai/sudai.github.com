@@ -1,4 +1,9 @@
 @charset "UTF-8"; /* CSS Document */
+.container-fluid{
+	background:#936;
+}
+
+
 h2 {
 	color: #90C;
 }
