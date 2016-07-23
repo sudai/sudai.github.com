@@ -4,6 +4,7 @@
 }
 
 
+
 h2 {
 	color: #90C;
 }
@@ -13,18 +14,23 @@ h2 {
 	font-size-adjust: inherit;
 	color: #066;
 	height: 800px;
+	padding:5%;
 }
 img {
 	border-radius: 5%;
 	width: 100%;
-	height: 300px;
+	height: auto;
 	margin-top: 70px;
 	margin-left:0%;
 }
+.photo img{
+	height:300px;
+}
 .photo_clu {
+	
     float: left;
     width: 20%;
-    height: 30px;
+    height: auto;
     margin: 10px;
     
 }
@@ -36,39 +42,21 @@ img {
 	
 }
 
-.top {
-	background: blue; /* For browsers that do not support gradients */
-	background: linear-gradient(to top right, pink, blue);
-	weight: 100%;
-	height: 50px;
-	position: fixed;
-}
-.top_content {
-	width: 100%;
-	margin: 0 auto;
-}
-.top_content li {
-	height: 30px;
-	width: 100px;
-	float: right;
-	color: white;
-}
+
+
+
 #education {
 	
 	background-color: #FFC;
 	background: linear-gradient(to top, lightgray, #FFF);
-	font-size: 1.5em;
+	font-size: 1em;
 	font-size-adjust: inherit;
 	width: 100%;
 	color: #066;
 	height: 800px;
+	padding:5%;
 }
-.content {
-	font-style: inherit;
-	font-stretch: extra-condensed;
-	font-size: 1.5em;
-	color: #039;
-}
+
 .right_text {
 	float: right;
 }
@@ -79,6 +67,7 @@ img {
 	font-size-adjust: inherit;
 	color: #066;
 	height: 800px;
+	padding:5%;
 }
 #work {
 	background: lightblue; /* For browsers that do not support gradients */
@@ -87,6 +76,8 @@ img {
 	font-size-adjust: inherit;
 	color: #066;
 	height: 1100px;
+	overflow:hidden;
+	padding:5%;
 }
 #course {
 	background: lightblue; /* For browsers that do not support gradients */
@@ -95,4 +86,22 @@ img {
 	font-size-adjust:inherit;
 	color: #066;
 	height: 800px;
+	width:100%;
+	padding:5%;
 }
+.course{
+	
+	float:left;
+	width:50%;
+	font-size: 1.5em;
+}
+
+.content {
+	font-style: inherit;
+	font-stretch: extra-condensed;
+	font-size: 1.5em;
+	color: #039;
+	padding:5%;
+	text-align:center;
+}
+	
