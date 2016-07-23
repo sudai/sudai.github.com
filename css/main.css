@@ -49,7 +49,7 @@ img {
 	
 	background-color: #FFC;
 	background: linear-gradient(to top, lightgray, #FFF);
-	font-size: 1em;
+	font-size: 1.5em;
 	font-size-adjust: inherit;
 	width: 100%;
 	color: #066;
@@ -59,6 +59,7 @@ img {
 
 .right_text {
 	float: right;
+	font-size:0.8em;
 }
 #highlights {
 	background: lightyellow; /* For browsers that do not support gradients */
